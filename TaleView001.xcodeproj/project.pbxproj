@@ -13,6 +13,7 @@
 		8DE69F2A24879D6000B09591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE69F2824879D6000B09591 /* Main.storyboard */; };
 		8DE69F2C24879D6200B09591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE69F2B24879D6200B09591 /* Assets.xcassets */; };
 		8DE69F2F24879D6200B09591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE69F2D24879D6200B09591 /* LaunchScreen.storyboard */; };
+		8DE69F3724879DE700B09591 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE69F3624879DE700B09591 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DE69F2B24879D6200B09591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE69F2E24879D6200B09591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DE69F3024879D6200B09591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE69F3624879DE700B09591 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8DE69F2424879D6000B09591 /* SceneDelegate.swift */,
 				8DE69F2624879D6000B09591 /* ViewController.swift */,
 				8DE69F2824879D6000B09591 /* Main.storyboard */,
+				8DE69F3624879DE700B09591 /* NextViewController.swift */,
 				8DE69F2B24879D6200B09591 /* Assets.xcassets */,
 				8DE69F2D24879D6200B09591 /* LaunchScreen.storyboard */,
 				8DE69F3024879D6200B09591 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE69F2724879D6000B09591 /* ViewController.swift in Sources */,
+				8DE69F3724879DE700B09591 /* NextViewController.swift in Sources */,
 				8DE69F2324879D6000B09591 /* AppDelegate.swift in Sources */,
 				8DE69F2524879D6000B09591 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nifty.cbm01799.TaleView001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nifty.cbm01799.TaleView001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
